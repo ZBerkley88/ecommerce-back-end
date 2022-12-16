@@ -47,18 +47,27 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.put('/:id', async (req, res) => {
-  // update a category by its `id` value
-  try { 
-    const catData = await Category.update(req.body, {
-      where: {
-        id: req.params.id,
-      },
-    })
-  } catch (err) {
-    res.status(400).json(err);
-  }
-});
+
+router.put('/:id', (req, res) => {
+  Category.update(req.body, {
+    where: { id: req.params.id }
+  }).then(result => {
+    res.json(result)
+  })
+})
+
+// router.put('/:id', async (req, res) => {
+//   // update a category by its `id` value
+//   try { 
+//     const catData = await Category.update(req.body, {
+//       where: {
+//         id: req.params.id,
+//       },
+//     })
+//   } catch (err) {
+//     res.status(400).json(err);
+//   }
+// });
 
 router.delete('/:id', async (req, res) => {
   // delete a category by its `id` value

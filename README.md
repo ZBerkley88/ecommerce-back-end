@@ -2,13 +2,13 @@
 
 <!-- WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
 THEN I am able to connect to a database using Sequelize -->
-
+<!-- 
 WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
+THEN a development database is created and is seeded with test data -->
 <!-- add schema tables from data on the assignment page -->
 
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
+<!-- WHEN I enter the command to invoke the application
+THEN my server is started and the Sequelize models are synced to the MySQL database -->
 
 
 WHEN I open API GET routes in Insomnia Core for categories, products, or tags
