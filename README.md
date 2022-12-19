@@ -1,19 +1,41 @@
-# ecommerce-back-end
+# e-Commerce Back End Project
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-<!-- WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize -->
-<!-- 
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data -->
-<!-- add schema tables from data on the assignment page -->
+## Description
 
-<!-- WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database -->
+This is a back-end for an e-commerce site which uses Express.js and Sequelize to interact with a MySQL database.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+
+Run `npm i` in your terminal to install `dotenv`, `express`, `mysql2` and `sequelize`. When the installation is complete, `node server.js` to begin the application.
+
+## Usage
+
+n/a
+
+## Credits
+
+Zachary Berkley
+
+## License
+
+This project is licensed under the MIT license.
+
+* [License](#license)
 
 
-WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
+## Tests
 
+n/a
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database
+## Questions
+
+If you have any additional questions, please feel free to contact me at: zachary.berkley@gmail.com. My GitHub username is:
+[ZBerkley88](https://github.com/ZBerkley88)
