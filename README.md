@@ -3,6 +3,8 @@
 
 ## Description
 
+![e-Commerce Back End Project](/assets/screenshot.png)
+
 This is a back-end for an e-commerce site which uses Express.js and Sequelize to interact with a MySQL database.
 
 ## Table of Contents
